@@ -1,0 +1,385 @@
+
+   header nav a{
+    color: #f7b538;
+    text-decoration: none;
+    font-size: 24px;
+    border: #f7b538;
+    border-style: double;
+    background-color: #c32f27;
+    padding:8px;
+     }
+     
+header{
+  text-align: left;
+  padding: 2px;
+  margin-bottom: 1rem;
+  display:
+  }
+
+
+  nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+
+ .header__logo{
+   width: 8rem;
+   height: 8rem;
+   position: relative;
+   left: 36.5em;
+
+  
+}
+
+.wsp__pedidos{
+  display:inline;
+  position:sticky;
+  font-size: 6rem;
+  top:4rem;
+}
+
+
+.titulo__sobre{
+ top: 2.5rem;
+ left: 0.5rem;
+display:grid;
+align-items: flex-start;
+position:relative;
+color: black;
+font-size: x-large;
+
+
+}
+
+.titulo__participa{
+top: -45.5rem;
+left:45rem;
+display:grid;
+align-items: flex-start;
+position:relative;
+color: black;
+font-size: x-large;
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: initial;
+  background-image: url(https://i.pinimg.com/564x/08/39/21/0839213819a220ccacd1bf2f4a97dd51.jpg);
+  position: relative; 
+  padding-bottom: 16rem;
+  
+}
+
+section{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 6rem;
+  
+  
+
+}
+
+ p{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border: 6px #f7b538;
+  border-style: double;
+  padding: 8px;
+  line-height: 2rem;
+  background-color: #c32f27;
+  margin-top: 3rem;
+
+ }
+
+ .main__participaYgana{
+  display: grid;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+ }
+ 
+
+ .main__basesYcondiciones{
+   position: relative;
+   left:
+ }
+
+
+
+.main__video1{
+  position: absolute;
+  left: 60rem;
+  top: 70rem;
+}
+
+.main__video2{
+  position: absolute;
+  left: 33rem;
+  top:70rem;
+}
+
+.main__video3{
+  position: absolute;
+  left: 3rem;
+  top:70rem;
+}
+
+footer{
+  position: absolute;
+  bottom: -14rem;
+  width: 100%;
+  
+}
+
+footer div a i{
+  position: relative;
+  left: 33rem;
+  top: 13rem;
+  color: #780116;
+  font-size: 6rem;
+  display: flex;
+  justify-content:space-around;
+
+}
+
+.botones__index{
+  position: relative;
+  left: 33rem;
+  top:-10rem;
+}
+
+.cuerpo__pro{
+  display: grid;
+  align-items: center;
+}
+
+.primera__variedad{
+ width: fit-content;
+ margin-left: 32rem;
+ margin-top: 6rem;
+ margin-bottom: 2rem;
+ padding-left: -3rem;
+ border: 6px solid #f7b538;
+ color: black;
+ background-color: #c32f27;
+ 
+}
+
+.segunda__variedad{
+ 
+  width: fit-content;
+  margin: 5px;
+  margin-top: 4rem;
+  margin-left: 33rem;
+  margin-bottom: 3rem;
+  padding-left: rem;
+  border: 6px solid #f7b538;
+  color: black;
+  background-color: #c32f27;
+
+}
+
+.redes__productos{
+position: relative;
+top: -25rem;
+
+}
+
+.politicas__productos{
+  position: relative;
+  top:-12.5rem;
+  left: 32rem;
+}
+
+ul li{
+  width: fit-content;
+  display: flex;
+  position: relative;
+  left: 33rem;
+list-style-type: none;
+padding: 1.5rem; 
+background-color: #780116;
+color: #f7b538;
+margin-top: 0.6rem;
+}
+
+div form {
+  margin-top: 5rem;
+}
+
+label{
+  display: flex;
+  position: relative;
+  margin-left: 2rem;
+  left: 16rem;
+  color:#f7b538;
+  
+}
+
+input{ 
+  position: relative;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 18rem;
+  background-color: #780116;
+  font-size: x-large;
+  border-radius: 1rem;
+}
+
+
+.botonEnviar{
+  display: inline-block;
+  position: relative;
+  left: 20.5rem;
+  bottom: -6rem;
+  color: #f7b538;
+  text-decoration: none;
+  font-size: 24px;
+  border: #f7b538;
+  border-style: double;
+  background-color: #c32f27;
+  padding:8px;
+}
+
+  
+.footer__logoredes{
+  position: relative;
+  top:-24rem;
+}
+
+.botonesPoliticas{
+  position: absolute;
+  display: block;
+  bottom: 10rem;
+  left: 33.5rem;
+  width: 85%;
+}
+
+
+
+
+
+.donde__estamos{
+
+  margin-top: 8rem;
+  position: relative;
+  width:fit-content;
+  height: fit-content;
+  align-content: center;
+  margin-left: 14rem;
+  top:-4rem;
+  font-size: 26px;
+  padding: 6px;
+  border:#f7b538;
+  border-style:double;
+  background-color:#c32f27;
+  color:#f7b538;
+  
+
+
+  
+}
+
+iframe{
+position: relative;
+left: -27rem;
+top: 10rem;
+
+}
+
+.donde__estamos2{
+  margin-top: 12rem;
+  position: relative;
+  width: auto;
+  height: fit-content;
+  left: -13rem;
+  top:-7.5rem;
+  font-size: 25px;
+  padding: 9px;
+  border-style:double;
+  background-color:#c32f27;
+  color:#f7b538;
+}
+
+.como__llegar{
+  width: 40%;
+  position: relative;
+  left: 50rem;
+  top:-20rem;
+}
+
+.pie__sucursales{
+  position:relative;
+  top:19rem;
+
+}
+
+
+
+.politicas__sucursales{
+  width: fit-content;
+  display: block;
+  position: relative;
+  left: 33rem;
+  top: 32rem;
+  
+  
+}
+
+.cuerpo__sucursales{
+  width: auto;
+  height: 5px;
+  border-bottom: 0em;
+}
+
+
+.sobre__nosotros{
+  width: 70%;
+  position: relative;
+  left: 12rem;
+}
+
+.redes__nosotros{
+  display:block;
+  position: relative;
+  top:-32rem;
+}
+
+.politicas__nosotros{
+position: relative;
+top: -18rem;
+left: 33rem;
+}
+
+/*media queries*/
+
+@media screen (max-width: 425px){
+  {.main__video1
+  .main__video2:
+  .main__video3:
+  }
+
+
+  @media screen (min-width: 768px){
+    {
+    grid-template-columns: ();
+    }
+
+@media screen (min-width: 1024px){
+  {
+  grid-template-columns: (1,1fr);
+  grid-template-areas:
+  }
+
+
+
+
+  
+
+
+
+
