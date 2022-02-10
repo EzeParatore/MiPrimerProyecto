@@ -7,13 +7,27 @@
     border-style: double;
     background-color: #c32f27;
     padding:8px;
+    width: fit-content;
+    height: fit-content;
+    transition: .5s;
+     }
+
+    
+     header nav a:hover{
+       transition: .3s;
+       width: fit-content;
+       padding: 11px;
+       height: 25px;
+       background-color: #780116;
+       
+       
+
      }
      
 header{
   text-align: left;
   padding: 2px;
   margin-bottom: 1rem;
-  display:
   }
 
 
@@ -28,8 +42,6 @@ header{
    height: 8rem;
    position: relative;
    left: 36.5em;
-
-  
 }
 
 .wsp__pedidos{
@@ -39,6 +51,24 @@ header{
   top:4rem;
 }
 
+
+.anuncio__covid{
+  border-bottom: 2px #780116;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding: 5px;
+}
+
+.texto__anuncio{
+  font-size:medium;
+  background: rgb(120,1,22);
+  background: -moz-linear-gradient(320deg, rgba(120,1,22,1) 0%, rgba(195,47,39,1) 20%, rgba(247,181,56,1) 49%, rgba(195,47,39,1) 80%, rgba(120,1,22,1) 100%);
+  background: -webkit-linear-gradient(320deg, rgba(120,1,22,1) 0%, rgba(195,47,39,1) 20%, rgba(247,181,56,1) 49%, rgba(195,47,39,1) 80%, rgba(120,1,22,1) 100%);
+  background: linear-gradient(320deg, rgba(120,1,22,1) 0%, rgba(195,47,39,1) 20%, rgba(247,181,56,1) 49%, rgba(195,47,39,1) 80%, rgba(120,1,22,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#780116",endColorstr="#780116",GradientType=1);
+}
 
 .titulo__sobre{
  top: 2.5rem;
@@ -53,7 +83,7 @@ font-size: x-large;
 }
 
 .titulo__participa{
-top: -45.5rem;
+top: -46.5rem;
 left:45rem;
 display:grid;
 align-items: flex-start;
@@ -89,7 +119,7 @@ section{
   padding: 8px;
   line-height: 2rem;
   background-color: #c32f27;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
 
  }
 
@@ -102,9 +132,13 @@ section{
  }
  
 
- .main__basesYcondiciones{
+ section .main__basesYcondiciones{
+   width: fit-content;
    position: relative;
-   left:
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 3rem;
+
  }
 
 
