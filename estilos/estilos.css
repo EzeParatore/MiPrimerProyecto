@@ -1,4 +1,4 @@
-
+/*index.html*/
    header nav a{
     color: #f7b538;
     text-decoration: none;
@@ -115,7 +115,7 @@ body{
   grid-column-end: 3;
   border: 6px #f7b538;
   border-style: double;
-  padding: 8px;
+  padding: 14px;
   line-height: 2rem;
   background-color: #c32f27;
   margin-top: 2.5rem;
@@ -173,6 +173,7 @@ footer div a i{
   
 }
 
+/*productos.html*/
 .cuerpo__pro{
   display: grid;
   align-items: center;
@@ -245,6 +246,7 @@ color: #f7b538;
 margin-top: 0.6rem;
 }
 
+/*contacto.html*/
 div form {
   margin-top: 5rem;
 }
@@ -294,7 +296,7 @@ input{
 }
 
 
-
+/*sucursales.html*/
 
 .donde__estamos{
 
@@ -366,6 +368,7 @@ height: 80vh;
   border-bottom: 0em;
 }
 
+/*nosotros.html*/
 
 .sobre__nosotros{
   padding-right: 1.5rem;

@@ -1,0 +1,200 @@
+@charset "UTF-8";
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: initial;
+  position: relative;
+  padding-bottom: 16rem;
+  color: black;
+  background: #3C3B3F;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#605C3C), to(#3C3B3F));
+  background: linear-gradient(to right, #605C3C, #3C3B3F);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body header {
+  text-align: left;
+  padding: 3px;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header .header__logo {
+  width: 8rem;
+  height: 8rem;
+  position: relative;
+  left: -6rem;
+}
+
+body header nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  right: 2.5rem;
+}
+
+body header nav a {
+  color: #f7b538;
+  text-decoration: none;
+  font-size: 24px;
+  border: #f7b538;
+  border-style: double;
+  background-color: #c32f27;
+  padding: 8px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+body header nav a:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 11px;
+  height: 60px;
+  color: #f7b538;
+  background-color: #780116;
+}
+
+body .anuncio__covid {
+  border: #f7b538 3px solid;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 2rem;
+}
+
+body .anuncio__covid .texto__anuncio {
+  font-size: large;
+  background: #780116;
+  background: linear-gradient(320deg, #780116 0%, #c32f27 20%, #f7b538 49%, #c32f27 80%, #780116 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#780116",endColorstr="#780116",GradientType=1);
+}
+
+main .wsp__pedidos {
+  display: inline;
+  position: -webkit-sticky;
+  position: sticky;
+  font-size: 6rem;
+  top: 4rem;
+}
+
+.textos__sobreYparticipa {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (2fr)[5];
+      grid-template-columns: repeat(5, 2fr);
+  -webkit-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+}
+
+.textos__sobreYparticipa .titulo__sobre {
+  top: 2.5rem;
+  left: 0.5rem;
+  position: relative;
+  color: black;
+  font-size: x-large;
+  font-weight: 800;
+}
+
+.textos__sobreYparticipa .titulo__sobre .main__DatosHistóricos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  border: 6px #f7b538;
+  border-style: double;
+  padding: 14px;
+  line-height: 2rem;
+  background-color: #c32f27;
+  margin-top: 2.5rem;
+}
+
+.textos__sobreYparticipa .titulo__participa {
+  top: -3rem;
+  position: relative;
+  color: black;
+  font-size: x-large;
+  font-weight: 800;
+}
+
+.textos__sobreYparticipa .titulo__participa .main__participaYgana {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 5;
+  border: 6px #f7b538;
+  border-style: double;
+  padding: 14px;
+  line-height: 2rem;
+  background-color: #c32f27;
+  margin-top: 2.5rem;
+}
+
+section .main__basesYcondiciones {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  background-color: #f7b538;
+}
+
+.img-carrusel {
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer .footer .footer__logoredes {
+  position: relative;
+  bottom: -14rem;
+  width: 100%;
+}
+
+footer .footer .footer__logoredes div a i {
+  position: relative;
+  left: 33rem;
+  top: -10rem;
+  color: #780116;
+  font-size: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .footer .footer__logoredes .botones__index {
+  position: relative;
+  left: 33rem;
+  top: -10rem;
+}
+/*# sourceMappingURL=main.css.map */
