@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*index*/
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: initial;
@@ -42,7 +43,7 @@ body header nav {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
-  right: 2.5rem;
+  right: -3.5rem;
 }
 
 body header nav a {
@@ -109,47 +110,54 @@ main .wsp__pedidos {
       grid-template-columns: repeat(5, 2fr);
   -webkit-column-gap: 1.5rem;
           column-gap: 1.5rem;
+  background-color: #c32f27;
+  border: 2px solid #f7b538;
 }
 
-.textos__sobreYparticipa .titulo__sobre {
-  top: 2.5rem;
-  left: 0.5rem;
+.titulo__sobre {
+  top: -4rem;
+  left: 17.5rem;
   position: relative;
   color: black;
   font-size: x-large;
   font-weight: 800;
+  background-color: #f7b538;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
-.textos__sobreYparticipa .titulo__sobre .main__DatosHistóricos {
+.titulo__sobre .main__DatosHistóricos {
   display: -ms-grid;
   display: grid;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 3;
-  border: 6px #f7b538;
-  border-style: double;
   padding: 14px;
   line-height: 2rem;
   background-color: #c32f27;
   margin-top: 2.5rem;
 }
 
-.textos__sobreYparticipa .titulo__participa {
-  top: -3rem;
+.titulo__participa {
+  top: -6rem;
+  right: -17rem;
   position: relative;
   color: black;
   font-size: x-large;
   font-weight: 800;
+  background-color: #f7b538;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
-.textos__sobreYparticipa .titulo__participa .main__participaYgana {
+.titulo__participa .main__participaYgana {
   display: -ms-grid;
   display: grid;
   -ms-grid-column: 4;
       grid-column-start: 4;
   grid-column-end: 5;
-  border: 6px #f7b538;
-  border-style: double;
   padding: 14px;
   line-height: 2rem;
   background-color: #c32f27;
@@ -163,38 +171,280 @@ section .main__basesYcondiciones {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: #f7b538;
+  top: 24rem;
+  left: -17rem;
 }
 
 .img-carrusel {
   height: 50vh;
   -o-object-fit: cover;
      object-fit: cover;
+  border: #f7b538 2px solid;
 }
 
-footer .footer .footer__logoredes {
+footer .footer__logoredes {
   position: relative;
-  bottom: -14rem;
+  bottom: -1rem;
   width: 100%;
 }
 
-footer .footer .footer__logoredes div a i {
-  position: relative;
-  left: 33rem;
-  top: -10rem;
+footer .footer__logoredes a i {
   color: #780116;
+  position: relative;
+  left: 31rem;
+  top: 1rem;
   font-size: 6rem;
+}
+
+.botones__index {
+  position: relative;
+  left: 30rem;
+  top: 2.5rem;
+}
+
+/*productos*/
+.cuerpo__pro {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cuerpo__pro ul li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-footer .footer .footer__logoredes .botones__index {
   position: relative;
   left: 33rem;
-  top: -10rem;
+  list-style-type: none;
+  padding: 1.5rem;
+  background-color: #780116;
+  color: #f7b538;
+  margin-top: 0.6rem;
 }
+
+.cuerpo__pro .linea1 {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  width: 85rem;
+  height: 6px;
+  background-color: #f7b538;
+}
+
+.cuerpo__pro .primera__variedad {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 32rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  padding-left: -3rem;
+  border: 6px solid #f7b538;
+  color: black;
+  background-color: #c32f27;
+}
+
+.cuerpo__pro .segunda__variedad {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 5px;
+  margin-top: 4rem;
+  margin-left: 33rem;
+  margin-bottom: 3rem;
+  padding-left: rem;
+  border: 6px solid #f7b538;
+  color: black;
+  background-color: #c32f27;
+}
+
+.cuerpo__pro .linea2 {
+  margin-top: 2rem;
+  width: 85rem;
+  height: 6px;
+  background-color: #f7b538;
+}
+
+footer .redes__productos i {
+  position: relative;
+  top: 2rem;
+  left: 35rem;
+  font-size: 4rem;
+  color: #780116;
+}
+
+.politicas__productos {
+  position: relative;
+  top: 2.5rem;
+  left: 32rem;
+}
+
+/*sucursales*/
+.cuerpo__sucursales {
+  width: auto;
+  height: 5px;
+  border-bottom: 0em;
+}
+
+.cuerpo__sucursales section .donde__estamos {
+  margin-top: 8rem;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-left: 4rem;
+  top: -2rem;
+  font-size: 2rem;
+  padding: 6px;
+  border: #f7b538;
+  border-style: double;
+  background-color: #c32f27;
+  color: #f7b538;
+}
+
+.cuerpo__sucursales iframe {
+  position: relative;
+  left: -5rem;
+  top: 1rem;
+  height: 80vh;
+}
+
+.cuerpo__sucursales .donde__estamos2 {
+  margin-top: -2rem;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: 43.5rem;
+  top: -23rem;
+  font-size: 1.5rem;
+  padding: 9px;
+  border-style: double;
+  background-color: #c32f27;
+  color: #f7b538;
+}
+
+.cuerpo__sucursales .como__llegar {
+  width: 100%;
+  position: relative;
+  left: 33rem;
+  top: -22rem;
+  background-color: #f7b538;
+  border: #780116 3px double;
+  padding: 1rem;
+}
+
+footer .pie__sucursales i {
+  position: relative;
+  top: 47.5rem;
+  left: 38.5rem;
+  font-size: 4rem;
+  color: #780116;
+}
+
+.politicas__sucursales {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  position: relative;
+  left: 33rem;
+  top: 49rem;
+}
+
+/*contacto*/
+form {
+  margin-top: 5rem;
+}
+
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 19rem;
+  color: #f7b538;
+}
+
+input {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 18rem;
+  background-color: #780116;
+  font-size: x-large;
+  border-radius: 1rem;
+}
+
+.btn.btn-danger {
+  position: relative;
+  left: 37rem;
+  top: 2rem;
+  border-radius: 1rem;
+}
+
+footer .piePagina__logoredes i {
+  position: relative;
+  left: 34rem;
+  top: 4.5rem;
+  font-size: 4rem;
+  color: #780116;
+}
+
+.botones__Politicas {
+  position: relative;
+  display: block;
+  top: 5rem;
+  left: 30rem;
+  width: 65%;
+}
+
+/*nosotros*/
+.sobre__nosotros {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+  left: 0.5rem;
+  top: 4rem;
+  font-size: larger;
+  background-color: #f7b538;
+  border-radius: 1.5rem;
+  padding: 3rem;
+}
+
+footer .redes__nosotros i {
+  position: relative;
+  top: 8rem;
+  left: 39rem;
+  font-size: 3rem;
+  color: #780116;
+}
+
+.politicas__nosotros {
+  position: relative;
+  top: 9rem;
+  left: 33rem;
+}
+
+/*Map y get map*/
+/*Extend*/
 /*# sourceMappingURL=main.css.map */

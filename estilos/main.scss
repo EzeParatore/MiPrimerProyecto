@@ -1,4 +1,4 @@
-
+/*index*/
 body{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: initial;
@@ -25,7 +25,7 @@ body{
     position: relative;
     display: flex;
     justify-content:right;
-    right: 2.5rem;
+    right: -3.5rem;
     a{
       color: #f7b538;
       text-decoration: none;
@@ -80,20 +80,22 @@ main .wsp__pedidos{
   display: grid;
   grid-template-columns: repeat(5, 2fr);
   column-gap: 1.5rem;
-  
+  background-color: #c32f27;
+  border: 2px solid #f7b538;
+}
   .titulo__sobre{
-    top: 2.5rem;
-    left: 0.5rem;
+    top: -4rem;
+    left: 17.5rem;
     position:relative;
     color: black;
     font-size: x-large;
     font-weight: 800;
+    background-color:#f7b538;
+    height: fit-content;
     .main__DatosHistóricos{
      display: grid;
      grid-column-start: 1;
      grid-column-end: 3;
-     border: 6px #f7b538;
-     border-style: double;
      padding: 14px;
      line-height: 2rem;
      background-color: #c32f27;
@@ -102,69 +104,296 @@ main .wsp__pedidos{
 }
   }
 .titulo__participa{
-  top:-3rem;
+  top:-6rem;
+  right: -17rem;
   position:relative;
   color: black;
   font-size: x-large;
   font-weight: 800;
+  background-color: #f7b538;
+  height: fit-content;
   
    .main__participaYgana{
     display: grid;
     grid-column-start: 4;
     grid-column-end: 5;
-    border: 6px #f7b538;
-    border-style: double;
     padding: 14px;
     line-height: 2rem;
     background-color: #c32f27;
     margin-top: 2.5rem;
    }
   }
-  }
-   section .main__basesYcondiciones{
+
+  section .main__basesYcondiciones{
      width: fit-content;
      position: relative;
      margin-left: auto;
      margin-right: auto;
-     margin-bottom: 3rem;
+     height: fit-content;
      background-color: #f7b538;
+     top: 24rem;
+     left: -17rem;
   
    }
    
    .img-carrusel{
      height: 50vh;
      object-fit: cover;
+     border: #f7b538 2px solid;
     }
   
-  footer .footer .footer__logoredes{
+  footer .footer__logoredes{
     position: relative;
-    bottom: -14rem;
+    bottom: -1rem;
     width: 100%;
-    
-    div a i{
+   a i{
+     color: #780116;   
      position: relative;
-     left: 33rem;
-     top: -10rem;
-     color: #780116;
+     left: 31rem;
+     top: 1rem;
      font-size: 6rem;
-     display: flex;
-     justify-content:space-around;
-   
-   }
-   .botones__index{
-     position: relative;
-     left: 33rem;
-     top:-10rem;
      
-   }
   }
+}
+    .botones__index{
+     position: relative;
+     left: 30rem;
+     top:2.5rem;
+    }
   
+    /*productos*/
+    .cuerpo__pro{
+      display: grid;
+      align-items: center;
+      
+      ul li{
+        width: fit-content;
+        display: flex;
+        position: relative;
+        left: 33rem;
+      list-style-type: none;
+      padding: 1.5rem; 
+      background-color: #780116;
+      color: #f7b538;
+      margin-top: 0.6rem;
+      }
+.linea1{
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  width: 85rem;
+  height: 6px;
+  background-color: #f7b538;
   
+
+}
+.primera__variedad{
+ width: fit-content;
+ margin-left: 32rem;
+ margin-top: 6rem;
+ margin-bottom: 2rem;
+ padding-left: -3rem;
+ border: 6px solid #f7b538;
+ color: black;
+ background-color: #c32f27;
+ 
+}
+.segunda__variedad{
+ 
+  width: fit-content;
+  margin: 5px;
+  margin-top: 4rem;
+  margin-left: 33rem;
+  margin-bottom: 3rem;
+  padding-left: rem;
+  border: 6px solid #f7b538;
+  color: black;
+  background-color: #c32f27;
+
+}
+.linea2{
+  margin-top: 2rem;
+  width: 85rem;
+  height: 6px;
+  background-color: #f7b538;
+
+}
+}
+
+
+ footer .redes__productos i{
+position: relative;
+top: 2rem;
+left: 35rem;
+font-size: 4rem;
+color:#780116;
   
-   
+}
+
+.politicas__productos{
+  position: relative;
+  top:2.5rem;
+  left: 32rem;
+}
+
+/*sucursales*/
+.cuerpo__sucursales{
+  width: auto;
+  height: 5px;
+  border-bottom: 0em;
+  section .donde__estamos{
+    
+    margin-top: 8rem;
+    position: relative;
+    width:fit-content;
+    height: fit-content;
+    align-content: center;
+    margin-left: 4rem;
+    top:-2rem;
+    font-size: 2rem;
+    padding: 6px;
+    border:#f7b538;
+    border-style:double;
+    background-color:#c32f27;
+    color:#f7b538;}
+
+    iframe{
+    position: relative;
+    left: -5rem;
+    top: 1rem;
+    height: 80vh;
+    }
   
+  .donde__estamos2{
+    margin-top: -2rem;
+    position: relative;
+    width: fit-content;
+    left: 43.5rem;
+    top:-23rem;
+    font-size: 1.5rem;
+    padding: 9px;
+    border-style:double;
+    background-color:#c32f27;
+    color:#f7b538;
+  }
+    .como__llegar{
+      width: 100%;
+      position: relative;
+      left: 33rem;
+      top:-22rem;
+      background-color: #f7b538;
+      border:#780116 3px double;
+      padding: 1rem;
+    }
   
+}
+
+footer .pie__sucursales i{
+  position:relative;
+  top:47.5rem;
+  left:38.5rem;
+  font-size: 4rem;
+  color:#780116;
+}
+.politicas__sucursales{
+  width: fit-content;
+  display: block;
+  position: relative;
+  left: 33rem;
+  top: 49rem;
+}  
+
+/*contacto*/
+form {
+  margin-top: 5rem;
+}
+  label{
+    display: flex;
+    position: relative;
+    left: 19rem;
+    color:#f7b538;
+  }
+
+
+input{ 
+  position: relative;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 18rem;
+  background-color: #780116;
+  font-size: x-large;
+  border-radius: 1rem;
+}
+
+.btn.btn-danger{
+  position: relative;
+  left: 37rem;
+  top: 2rem;
+  border-radius: 1rem;
+}
+
+
+footer .piePagina__logoredes i{
+  position:relative;
+  left: 34rem;
+  top:4.5rem;
+  font-size: 4rem;
+  color:#780116;
+}
+
+.botones__Politicas{
+  position: relative;
+  display: block;
+  top: 5rem;
+  left: 30rem;
+  width: 65%;
+}
+
+/*nosotros*/
+.sobre__nosotros{
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+  left: 0.5rem;
+  top: 4rem;
+  font-size: larger;
+  background-color: #f7b538;
+  border-radius: 1.5rem;
+  padding: 3rem;
+}
+
+footer .redes__nosotros i{
+  position: relative;
+  top:8rem;
+  left: 39rem;
+  @include Redes;
+}
+
+.politicas__nosotros{
+position: relative;
+top: 9rem;
+left: 33rem;
+}
+
+/*Map y get map*/
+
+$coloresRedes: (
+  primario: #780116,
+  secundario: #f7b538
+);
+
+  $primario: map-get($map:$coloresRedes, $key:primario );
   
-  
-  
-  
+
+/*Mixin*/
+@mixin Redes {
+  height: 3rem;
+  color:#780116;
+}
+
+/*Extend*/
+.btn.btn-danger--enviar{
+@extend .btn.btn-danger;
+background-color:#780116
+}
+

@@ -58,6 +58,7 @@ header{
   margin-right: auto;
   width: fit-content;
   padding: 5px;
+
 }
 
 .texto__anuncio{
@@ -244,6 +245,10 @@ padding: 1.5rem;
 background-color: #780116;
 color: #f7b538;
 margin-top: 0.6rem;
+}
+.redes__productos a{
+color:#780116;
+text-decoration: none;
 }
 
 /*contacto.html*/
