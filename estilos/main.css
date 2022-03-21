@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*index*/
 body {
+  overflow-x: hidden;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: initial;
   position: relative;
@@ -76,7 +77,7 @@ body header nav a:hover {
   background-color: #780116;
 }
 
-body .anuncio__covid {
+.anuncio__covid {
   border: #f7b538 3px solid;
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -88,19 +89,12 @@ body .anuncio__covid {
   height: 2rem;
 }
 
-body .anuncio__covid .texto__anuncio {
+.texto__anuncio {
+  bottom: -0.5rem;
   font-size: large;
   background: #780116;
   background: linear-gradient(320deg, #780116 0%, #c32f27 20%, #f7b538 49%, #c32f27 80%, #780116 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#780116",endColorstr="#780116",GradientType=1);
-}
-
-main .wsp__pedidos {
-  display: inline;
-  position: -webkit-sticky;
-  position: sticky;
-  font-size: 6rem;
-  top: 4rem;
 }
 
 .textos__sobreYparticipa {
@@ -115,8 +109,8 @@ main .wsp__pedidos {
 }
 
 .titulo__sobre {
-  top: -4rem;
-  left: 17.5rem;
+  top: 0.5rem;
+  left: 0.5rem;
   position: relative;
   color: black;
   font-size: x-large;
@@ -140,8 +134,8 @@ main .wsp__pedidos {
 }
 
 .titulo__participa {
-  top: -6rem;
-  right: -17rem;
+  top: 0.5rem;
+  right: -0.5rem;
   position: relative;
   color: black;
   font-size: x-large;
@@ -158,7 +152,7 @@ main .wsp__pedidos {
   -ms-grid-column: 4;
       grid-column-start: 4;
   grid-column-end: 5;
-  padding: 14px;
+  padding: 12px;
   line-height: 2rem;
   background-color: #c32f27;
   margin-top: 2.5rem;
@@ -195,9 +189,9 @@ footer .footer__logoredes {
 footer .footer__logoredes a i {
   color: #780116;
   position: relative;
-  left: 31rem;
+  left: 33rem;
   top: 1rem;
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 .botones__index {
@@ -229,12 +223,12 @@ footer .footer__logoredes a i {
   background-color: #780116;
   color: #f7b538;
   margin-top: 0.6rem;
+  width: fit-content;
 }
 
 .cuerpo__pro .linea1 {
   margin-top: 1rem;
   margin-bottom: -1rem;
-  width: 85rem;
   height: 6px;
   background-color: #f7b538;
 }
@@ -268,7 +262,6 @@ footer .footer__logoredes a i {
 
 .cuerpo__pro .linea2 {
   margin-top: 2rem;
-  width: 85rem;
   height: 6px;
   background-color: #f7b538;
 }
@@ -433,9 +426,9 @@ footer .piePagina__logoredes i {
 
 footer .redes__nosotros i {
   position: relative;
-  top: 8rem;
-  left: 39rem;
-  font-size: 3rem;
+  left: 38rem;
+  top: 8.5rem;
+  font-size: 4rem;
   color: #780116;
 }
 
@@ -444,7 +437,4 @@ footer .redes__nosotros i {
   top: 9rem;
   left: 33rem;
 }
-
-/*Map y get map*/
-/*Extend*/
 /*# sourceMappingURL=main.css.map */

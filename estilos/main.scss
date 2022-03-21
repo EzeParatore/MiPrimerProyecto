@@ -1,5 +1,6 @@
 /*index*/
 body{
+  overflow-x: hidden;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: initial;
   position: relative; 
@@ -15,12 +16,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
+  
     .header__logo{
       width: 8rem;
       height: 8rem;
       position: relative;
-      left:-6rem
+      left:-6rem;
     }
+    
   nav{
     position: relative;
     display: flex;
@@ -37,6 +41,8 @@ body{
       width: fit-content;
       height: fit-content;
       transition: .5s;
+    
+    
       &:hover{
         transition: .3s;
         width: fit-content;
@@ -48,6 +54,8 @@ body{
     }
   }
 }
+}
+  
 .anuncio__covid{
   border:#f7b538 3px solid;
   color: black;
@@ -56,25 +64,18 @@ body{
   margin-right: auto;
   width: fit-content;
   height: 2rem;
-  
+}
 
   .texto__anuncio{ 
+    bottom: -0.5rem;
     font-size:large;
     background: rgb(120,1,22);
     background: -moz-linear-gradient(320deg, rgba(120,1,22,1) 0%, rgba(195,47,39,1) 20%, rgba(247,181,56,1) 49%, rgba(195,47,39,1) 80%, rgba(120,1,22,1) 100%);
     background: -webkit-linear-gradient(320deg, rgba(120,1,22,1) 0%, rgba(195,47,39,1) 20%, rgba(247,181,56,1) 49%, rgba(195,47,39,1) 80%, rgba(120,1,22,1) 100%);
     background: linear-gradient(320deg, rgba(120,1,22,1) 0%, rgba(195,47,39,1) 20%, rgba(247,181,56,1) 49%, rgba(195,47,39,1) 80%, rgba(120,1,22,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#780116",endColorstr="#780116",GradientType=1);
-  }
-}
-}
-main .wsp__pedidos{
-  display:inline;
-  position:sticky;
-  font-size: 6rem;
-  top:4rem;
-  }
   
+}
 
 .textos__sobreYparticipa{
   display: grid;
@@ -84,8 +85,8 @@ main .wsp__pedidos{
   border: 2px solid #f7b538;
 }
   .titulo__sobre{
-    top: -4rem;
-    left: 17.5rem;
+    top: 0.5rem;
+    left: 0.5rem;
     position:relative;
     color: black;
     font-size: x-large;
@@ -104,8 +105,8 @@ main .wsp__pedidos{
 }
   }
 .titulo__participa{
-  top:-6rem;
-  right: -17rem;
+  top:0.5rem;
+  right: -0.5rem;
   position:relative;
   color: black;
   font-size: x-large;
@@ -117,7 +118,7 @@ main .wsp__pedidos{
     display: grid;
     grid-column-start: 4;
     grid-column-end: 5;
-    padding: 14px;
+    padding: 12px;
     line-height: 2rem;
     background-color: #c32f27;
     margin-top: 2.5rem;
@@ -149,9 +150,9 @@ main .wsp__pedidos{
    a i{
      color: #780116;   
      position: relative;
-     left: 31rem;
+     left: 33rem;
      top: 1rem;
-     font-size: 6rem;
+     font-size: 4rem;
      
   }
 }
@@ -161,26 +162,26 @@ main .wsp__pedidos{
      top:2.5rem;
     }
   
-    /*productos*/
+ /*productos*/
     .cuerpo__pro{
       display: grid;
       align-items: center;
-      
+
       ul li{
-        width: fit-content;
-        display: flex;
-        position: relative;
-        left: 33rem;
+      width: fit-content;
+      display: flex;
+      position: relative;
+      left: 33rem;
       list-style-type: none;
       padding: 1.5rem; 
       background-color: #780116;
       color: #f7b538;
       margin-top: 0.6rem;
+      width:fit-content
       }
 .linea1{
   margin-top: 1rem;
   margin-bottom: -1rem;
-  width: 85rem;
   height: 6px;
   background-color: #f7b538;
   
@@ -212,7 +213,6 @@ main .wsp__pedidos{
 }
 .linea2{
   margin-top: 2rem;
-  width: 85rem;
   height: 6px;
   background-color: #f7b538;
 
@@ -363,37 +363,15 @@ footer .piePagina__logoredes i{
 }
 
 footer .redes__nosotros i{
-  position: relative;
-  top:8rem;
-  left: 39rem;
-  @include Redes;
-}
+    position:relative;
+    left: 38rem;
+    top:8.5rem;
+    font-size: 4rem;
+    color:#780116;
+  }
 
 .politicas__nosotros{
 position: relative;
 top: 9rem;
 left: 33rem;
 }
-
-/*Map y get map*/
-
-$coloresRedes: (
-  primario: #780116,
-  secundario: #f7b538
-);
-
-  $primario: map-get($map:$coloresRedes, $key:primario );
-  
-
-/*Mixin*/
-@mixin Redes {
-  height: 3rem;
-  color:#780116;
-}
-
-/*Extend*/
-.btn.btn-danger--enviar{
-@extend .btn.btn-danger;
-background-color:#780116
-}
-

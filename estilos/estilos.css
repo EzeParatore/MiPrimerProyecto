@@ -42,12 +42,7 @@ header{
    left: 36.5em;
 }
 
-.wsp__pedidos{
-  display:inline;
-  position:sticky;
-  font-size: 6rem;
-  top:4rem;
-}
+
 
 
 .anuncio__covid{
@@ -59,7 +54,7 @@ header{
   width: fit-content;
   padding: 5px;
 
-}
+
 
 .texto__anuncio{
   font-size:medium;
@@ -68,6 +63,7 @@ header{
   background: -webkit-linear-gradient(320deg, rgba(120,1,22,1) 0%, rgba(195,47,39,1) 20%, rgba(247,181,56,1) 49%, rgba(195,47,39,1) 80%, rgba(120,1,22,1) 100%);
   background: linear-gradient(320deg, rgba(120,1,22,1) 0%, rgba(195,47,39,1) 20%, rgba(247,181,56,1) 49%, rgba(195,47,39,1) 80%, rgba(120,1,22,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#780116",endColorstr="#780116",GradientType=1);
+}
 }
 
 .titulo__sobre{
@@ -246,10 +242,7 @@ background-color: #780116;
 color: #f7b538;
 margin-top: 0.6rem;
 }
-.redes__productos a{
-color:#780116;
-text-decoration: none;
-}
+
 
 /*contacto.html*/
 div form {
@@ -398,13 +391,9 @@ left: 33rem;
 
 /*media queries*/
 
-@media screen (max-width: 425px)
 
-@media screen (min-width: 768px)
    
 
-@media screen (min-width: 1024px)
- 
 
 
 
